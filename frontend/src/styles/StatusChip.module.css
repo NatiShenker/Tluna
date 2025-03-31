@@ -1,0 +1,30 @@
+.chip {
+  min-width: 100px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.chip[color="default"] {
+  background-color: #e0e0e0;
+  color: #616161;
+}
+
+.chip[color="primary"] {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.chip[color="warning"] {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.chip[color="info"] {
+  background-color: #e0f7fa;
+  color: #0288d1;
+}
+
+.chip[color="success"] {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+} 

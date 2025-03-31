@@ -1,0 +1,36 @@
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.value {
+  color: #333;
+  font-weight: 500;
+}
+
+.divider {
+  margin: 24px 0;
+} 

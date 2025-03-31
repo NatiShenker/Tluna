@@ -1,0 +1,52 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.formContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 8px;
+}
+
+.error {
+  color: #d32f2f;
+  margin: 8px 0;
+}
+
+.success {
+  color: #2e7d32;
+  margin: 8px 0;
+} 

@@ -1,0 +1,21 @@
+.form {
+  width: 100%;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.formControl {
+  margin-bottom: 16px;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+.description {
+  margin-top: 16px;
+} 
